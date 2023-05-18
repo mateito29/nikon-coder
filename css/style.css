@@ -336,6 +336,8 @@ footer{
     }
 }
 
+/* RESPONSIVE ACCESORIOS INCLUIDOS */
+
 @media (max-width: 1024px){
     .header{
         display: flex;
@@ -346,6 +348,18 @@ footer{
     }
     .header .nav-links li{
         font-size: 9px;
+}
+
+.imagenes-descripcion img{
+    width: 180px;
+    height: auto;
+}
+
+.imagenes-descripcion h3{
+    font-family: "qontra";
+    text-align: center;
+
+    font-size: 13px;
 }
 }
 
@@ -388,4 +402,31 @@ footer{
 .imagenes-descripcion h3{
     font-family: "qontra";
     text-align: center;
+}
+
+/* HTML IMAGENES OPCIONALES */
+
+.titulo-opcionales{
+    color: white;
+    text-align: center;
+    margin-top: 20px;
+
+    font-family: "golden";
+}
+
+.seccion-opcionales{
+    display: grid;
+    
+
+}
+
+.seccion-opcionales-img img{
+    width: 150px;
+    height: auto;
+}
+
+.seccion-opcionales-img h3{
+    color: white;
+
+    font-family: "qontra";
 }
