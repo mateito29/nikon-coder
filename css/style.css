@@ -87,7 +87,7 @@
 }
 
 .seccion-negro__contenido img:hover{
-    transform:  scale(1.2);
+    transform:  scale(1.1);
 }
 
 .descripcion p{
@@ -180,22 +180,21 @@
 /* ======= FOOTER ======= */
 
 footer{
-    background-color:#F7CF3E;;
+    background-color:#F7CF3E;
+    display: flex;
+    justify-content: space-between;
+    font-family: "qontra";
 }
 
 .footer-imagen img{
     width: 80px;
-    margin-top: 30px;
 }
 
 .footer-content{
     text-align: center;
-    display: inline-block;
-    justify-content: center;
-    align-items: center;
-    margin-left: 375px;
+    margin-right: 350px;
+    margin-top: 40px;
 }
-
 
 
 /* ======== GALERIA HTML======== */
@@ -274,7 +273,7 @@ footer{
 
 /* ====== REPONSIVE GALERIA ====== */
 
-@media (max-width: 360px){
+@media (max-width: 375px){
     .header{
         display: flex;
         flex-direction: column;
@@ -336,33 +335,32 @@ footer{
     }
 }
 
-/* RESPONSIVE ACCESORIOS INCLUIDOS */
+    @media (max-width: 1024px){
+        .header .nav-links li{
+        font-size: 9px;
+    }
+}
+
+
+
+/* RESPONSIVE ACC OPCIONALES */
+
+@media (max-width: 375px){
+    .seccion-opcionales{
+        display: grid;
+        grid-template-columns: 200px;
+        grid-template-rows: 200px;
+
+        font-size: 13px;
+    }
+}
 
 @media (max-width: 1024px){
-    .header{
-        display: flex;
+    .footer-content{
+        margin: 0 auto;
     }
 
-    .header .nav-links {
-        display: block;
-    }
-    .header .nav-links li{
-        font-size: 9px;
 }
-
-.imagenes-descripcion img{
-    width: 180px;
-    height: auto;
-}
-
-.imagenes-descripcion h3{
-    font-family: "qontra";
-    text-align: center;
-
-    font-size: 13px;
-}
-}
-
 
 /* ====== HTML ACC. INCLUIDOS ====== */
 .body-accesorios-incluidos{
@@ -386,6 +384,7 @@ footer{
 
 .imagenes-descripcion{
     color: white;
+    margin-bottom: 100px;
 }
 
 .imagenes-descripcion img{
@@ -404,6 +403,8 @@ footer{
     text-align: center;
 }
 
+
+
 /* HTML IMAGENES OPCIONALES */
 
 .titulo-opcionales{
@@ -416,13 +417,27 @@ footer{
 
 .seccion-opcionales{
     display: grid;
-    
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    margin-top: 40px;
+
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+
+    font-size: 13px;
 
 }
 
 .seccion-opcionales-img img{
     width: 150px;
     height: auto;
+    transition: all 1s;
+
+}
+
+.seccion-opcionales-img img:hover{
+    transform: scale(1.1);
 }
 
 .seccion-opcionales-img h3{
