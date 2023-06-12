@@ -1,0 +1,36 @@
+.titulo-opcionales {
+    color: $color_blanco;
+    text-align: center;
+    margin-top: 20px;
+    font-family: "golden";
+  }
+  
+  .seccion-opcionales {
+    display: grid;
+    grid-template-columns: 200px 200px 200px 200px;
+    grid-template-rows: 200px 200px 200px 200px;
+    margin-top: 40px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-size: 13px;
+  }
+  
+  .seccion-opcionales-img {
+    img {
+      width: 150px;
+      height: auto;
+      transition: all 1s;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  
+    h3 {
+      font-family: "Pro";
+      color:$color_blanco;
+      font-size: .8rem;
+    }
+  }
+  

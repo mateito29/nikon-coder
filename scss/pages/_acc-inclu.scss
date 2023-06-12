@@ -1,0 +1,39 @@
+.body-accesorios-incluidos {
+    background-color: $color_negro;
+  }
+  
+  .titulo-accesorios{
+    color: $color_blanco;
+    text-align: center;
+    font-size: 1.2rem;
+    font-family: "golden";
+    margin-top: 50px;
+  }
+  
+  .accesorios-container {
+    margin-top: 150px;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  .imagenes-descripcion {
+    color: $color_blanco;
+    margin-bottom: 100px;
+  
+    img {
+      width: 220px;
+      transition: all 0.5s;
+  
+      &:hover {
+        cursor: pointer;
+        transform: scale(1.1);
+      }
+    }
+  
+    h3 {
+      font-family: "Pro";
+      text-align: center;
+      font-size: .8rem;
+    }
+  }
+  

@@ -1,0 +1,22 @@
+form{
+    width: 450px;
+    margin: auto;
+    background-color: $color_negro_sombra;
+    padding: 10px 80px;
+    margin-top: 80px;
+    margin-bottom: 80px;
+    border-radius: 20px;
+}
+
+input, textarea{
+    width: 100%;
+    margin-bottom: 20px;
+    padding: 7px;
+    border-radius: 10px;
+    border-color: transparent;
+}
+
+textarea{
+    min-height: 100px;
+    max-height: 200px;
+}

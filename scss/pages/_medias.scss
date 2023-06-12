@@ -1,0 +1,137 @@
+@media (max-width:380px){
+    .imagen-camara img{
+      display: none;
+    }
+  
+    .descripcion p{
+    margin-right: 0;
+    font-size: 1rem;
+    }
+    .linea-amarilla {
+      border-right:none;
+      width: 100%;
+      height: 100px;
+      text-align: center;
+      border-bottom: 5px solid #F7CF3E;
+      margin-bottom: 20px;
+    }
+    .linea-amarilla p {
+      font-size: 1rem;
+  
+    }
+  
+    .seccion-amarilla img {
+      margin-top: 30px;
+      width: 100%;
+      height: 100%;
+    }
+    .ventajas p {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      margin-right: 50px;
+    }
+    .seccion-negro-perro {
+      background-color: black;
+      padding-bottom: 100px;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+    }
+    
+    .camara-video img {
+      width: 100%;
+    }
+    .camara-video h3 {
+      margin-right: 40px;
+    }
+  }
+  
+  
+  @media (min-width:767px) and (max-width:1023px){
+    .imagen-camara img{
+      
+    }
+     .linea-amarilla p {
+       font-size: 1rem;
+       
+     }
+   
+}
+
+  @media (max-width:1024px){
+    .navbar-brand img {
+      height: 50px;
+      margin-left: 80px;
+    }
+    
+    .nav-item {
+      margin-right: 10px;
+    }
+  
+    .seccion-negro__contenido {
+      display:block;
+    }
+    .seccion-negro__contenido img {
+      height: 100%;
+      width: auto;
+      margin-left: 40%;
+      margin-top: 10px;
+    }
+    
+    .descripcion p {
+      color: white;
+      margin-top: 30px;
+      margin-right: 00;
+      margin-left: 0;
+    }
+    
+    .linea-amarilla {
+      margin-left: 70px;
+  
+    }
+    .linea-amarilla p {
+      font-size: 1rem;
+      margin-right: 5px;
+      
+    }
+  
+    .seccion-amarilla img {
+      margin-top: 30px;
+      width: 100%;
+      height: 100%;
+    }
+  
+    .ventajas h2 {
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+      font-size: 1.5rem;
+    }
+    .ventajas p {
+      font-size: 1.2rem;
+      margin-top: 20px;
+      margin-left: 50px;
+      text-align: center;
+      align-items: center;
+      justify-content: center;
+    }
+  
+    .camara-video h3 {
+      color: white;
+      margin-top: 50px;
+      margin-left: 50px;
+      font-family: "qontra";
+      font-size: 1.2rem;
+    }
+  
+    .footer-content {
+      text-align: center;
+      margin-right: 50vh;
+      margin-top: 0px;
+    }
+    .footer-imagen img {
+      width: 80px;
+      margin-left: 10vh;
+    }
+  }

@@ -1,0 +1,17 @@
+footer{
+    background-color:$color_amarillo;
+    display: flex;
+    justify-content: space-between;
+    font-family: "qontra";
+}
+
+.footer-imagen img{
+    width: 80px;
+}
+
+.footer-content{
+    text-align: center;
+    margin-right: 350px;
+    margin-top: 40px;
+}
+

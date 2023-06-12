@@ -1,0 +1,117 @@
+.seccion-negro {
+    background-color: $color_negro;
+  }
+  
+  .titulo-principal {
+    color: $color_blanco;
+    text-align: center;
+    font-family: "golden";
+  }
+  
+  .seccion-negro__contenido {
+    display: flex;
+    justify-content: space-around;
+  
+    img {
+      height: 300px;
+      width: auto;
+      margin-top: 50px;
+      transition: all 0.5s;
+  
+      &:hover {
+        transform: scale(1.1);
+      }
+    }
+  }
+  
+  .descripcion p {
+    color: $color_blanco;
+    margin-top: 70px;
+    margin-right: 330px;
+    text-align: center;
+    font-size: 1.5rem;
+    font-family: "qontra";
+  }
+  
+  /* ======= Tabla Descriptiba ======= */
+  
+  .linea-amarilla {
+    line-height: 60px;
+    border-right: 2px solid $color_amarillo;
+    display: inline-block;
+    margin-left: 45px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+  
+    p {
+      color: $color_blanco;
+      font-family: "qontra";
+      font-size: 1.5rem;
+      margin-right: 30px;
+      transition: all 1s;
+  
+      &:hover {
+        color: $color_amarillo;
+      }
+    }
+  }
+  
+  /* ======= Seccion Amarilla Con Imagen ======= */
+  
+  .seccion-amarilla {
+    padding-bottom: 100px;
+    background-color:$color_amarillo;
+    display: flex;
+    justify-content: center;
+  
+    img {
+      margin-top: 100px;
+    }
+  }
+  
+  .ventajas {
+    h2 {
+      text-align: center;
+      font-family: "golden";
+      font-size: 1.8rem;
+    }
+  
+    p {
+      font-size: 1.5rem;
+      margin-top: 20px;
+      font-family: "qontra";
+      text-align: center;
+    }
+  }
+  
+  /* ======= Seccion Negra Con Imagen ======= */
+  
+  .seccion-negro-perro {
+    background-color: $color_negro;
+    padding-bottom: 100px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+  }
+  
+  .camara-video {
+    img {
+      margin-top: 100px;
+    }
+  
+    h2 {
+      color: $color_blanco;
+      text-align: center;
+      font-family: "golden";
+      font-size: 1.8rem;
+      margin-top: 50px;
+    }
+  
+    h3 {
+      color: $color_blanco;
+      margin-top: 50px;
+      font-family: "qontra";
+      font-size: 1.5rem;
+    }
+  }

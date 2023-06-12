@@ -1,0 +1,28 @@
+@font-face {
+    font-family: "Pro";
+    src: url(../fuentes/Cocogoose\ Pro\ Italic-trial.ttf);
+}
+@font-face {
+    font-family: "golden";
+    src: url(../fuentes/goldenwings.ttf);
+}
+
+@font-face {
+    font-family: "qontra";
+    src: url(../fuentes/Qontra-Sans-Serif-Font/Qontra-Sans-Serif-Font/Qontra.otf);
+}
+
+
+$color_blanco:white;
+$color_negro:black;
+$color_amarillo:#F7CF3E;
+$color_azul:#002f3d;
+$color_negro_sombra:rgba(0, 0, 0, .4);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    list-style: none;
+}
