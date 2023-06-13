@@ -507,5 +507,44 @@ textarea {
     flex-direction: column;
   }
 }
+@media (min-width: 300px) and (max-width: 468px) {
+  .camara-video img {
+    width: 250px;
+  }
+  .imagen-camara {
+    width: 100px;
+    margin-right: 300px;
+  }
+  .linea-amarilla {
+    border-right: none;
+    width: 100%;
+    border-bottom: 2px solid #F7CF3E;
+    box-sizing: border-box;
+    margin-left: 0;
+    margin-right: 0;
+  }
+  .linea-amarilla p {
+    text-align: center;
+    font-size: 1.5rem;
+  }
+  .ventajas p, .camara-video h3 {
+    margin-right: 50px;
+  }
+  .footer-content {
+    margin: 20px;
+  }
+  .footer-imagen img {
+    width: 80px;
+    margin-left: 5px;
+  }
+  .accesorios-container {
+    flex-direction: column;
+    align-items: center;
+  }
+  .seccion-opcionales {
+    display: flex;
+    flex-direction: column;
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
