@@ -171,6 +171,9 @@
     display: flex;
     flex-direction: column;
   }
+  form{
+    width: 90%;
+  }
 }
 
 @media (min-width:300px) and (max-width:468px){
@@ -219,5 +222,7 @@
     display: flex;
     flex-direction: column;
   }
-  
+  form{
+    width: 100%;
+  }
 }
