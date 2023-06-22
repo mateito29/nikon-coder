@@ -18,11 +18,20 @@
   list-style: none;
 }
 
+body {
+  position: relative;
+  min-height: 100vh;
+}
+
 footer {
   background-color: #F7CF3E;
   display: flex;
   justify-content: space-between;
   font-family: "qontra";
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
 }
 
 .footer-imagen img {
